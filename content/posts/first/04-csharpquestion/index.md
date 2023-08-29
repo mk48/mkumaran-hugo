@@ -1,6 +1,7 @@
 ---
 title: int x=5; x += x++ + ++x; (C#)
 date: "2019-01-04"
+tags: ["C sharp", "fun program"]
 ---
 
 I had this question as my [WhatsApp](https://www.whatsapp.com/) status and got interesting answers from friends. I will explain the answer here.

@@ -1,7 +1,7 @@
 ---
 title: Backtracking – 1000 locks and 1000 students problem
 date: '2019-01-01'
-tags: ["first"]
+tags: ["C", "Backtracking", "fun program"]
 ---
 
 A high school has a strange principal. On the first day, he has his students perform an odd opening day ceremony:

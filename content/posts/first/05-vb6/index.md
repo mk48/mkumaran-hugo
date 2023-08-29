@@ -1,6 +1,7 @@
 ---
 title: Creating a simple Telephone directory using VB6.0
 date: "2019-01-05"
+tags: ["VB6"]
 ---
 
 I will show absolute beginner tutorial for VB6.0 with database connections (using ADO). This will helpful you to get started further. I know VB 6.0 is quite old and It’s [IDE is no longer supported by Microsoft](http://blogs.msdn.com/b/nikosan/archive/2012/04/20/support-statement-for-visual-basic-6-0-on-windows-8.aspx). But still some legacy applications are running in VB6 runtime.

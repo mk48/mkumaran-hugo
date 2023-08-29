@@ -1,6 +1,7 @@
 ---
 title: Install packages from myget.org in Visual Studio 2015
 date: "2019-01-06"
+tags: ["C sharp", "Visual Studio"]
 ---
 
 By default Visual Studio supports [NuGet](https://www.nuget.org/) package manager. Here we will see how to use [myget.org](https://myget.org/) package manager in Visual Studio.

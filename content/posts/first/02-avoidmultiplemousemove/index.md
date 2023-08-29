@@ -1,6 +1,7 @@
 ---
 title: Avoid multiple mouse move events in C#
 date: "2019-01-02"
+tags: ["C sharp", "WPF"]
 ---
 
 in windows/wpf application, mouse move event is triggered multiple time. We will see how to avoid multiple mouse move events. if we want to do some time consuming task in mouse move event, that will affect the performance.
