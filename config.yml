@@ -1,0 +1,58 @@
+baseURL : 'mkumaran.net'
+languageCode : 'en-us'
+title : 'M Kumaran'
+theme : "PaperMod"
+
+googleAnalytics: UA-68281380-1
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: M Kumaran
+  description: "Personal website and blog of M.Kumaran"
+  keywords: [Blog, Portfolio]
+  author: M.Kumaran
+  # author: ["Me", "You"] # multiple authors
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+
+  # home-info mode
+  homeInfoParams:
+    Title: "M.Kumaran's personal blog and website \U0001F44B"
+    Content: Passionate in programming        
+  
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/kumaran_muthu"
+    #- name: stackoverflow
+    #  url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/mk48"
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
