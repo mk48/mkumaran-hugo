@@ -1,6 +1,7 @@
 ---
 title: I stopped using WhatsApp and Why I told my friends to stop using WhatsApp and Telegram
 date: "2019-01-28"
+url: '/2019/nowhatsapp'
 tags: ["Mine"]
 ---
 

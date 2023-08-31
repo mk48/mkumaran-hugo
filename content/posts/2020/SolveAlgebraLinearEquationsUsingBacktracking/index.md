@@ -1,6 +1,7 @@
 ---
 title: Solve Algebra Linear Equations using Backtracking
 date: '2020-04-05'
+url: '/2020/SolveAlgebraLinearEquationsUsingBacktracking'
 tags: ["Backtracking", "fun program"]
 ---
 

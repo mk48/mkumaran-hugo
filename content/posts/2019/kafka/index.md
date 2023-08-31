@@ -1,6 +1,7 @@
 ---
 title: Install Apache Kafka in Windows 10
 date: "2019-12-21"
+url: '/2019/kafka'
 tags: ["Kafka"]
 ---
 

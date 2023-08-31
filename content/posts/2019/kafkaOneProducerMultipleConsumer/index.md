@@ -1,6 +1,7 @@
 ---
 title: How to use Kafka as a load balancer for a topic
 date: '2019-12-23'
+url: '/2019/kafkaOneProducerMultipleConsumer'
 tags: ["Kafka", "C sharp"]
 ---
 

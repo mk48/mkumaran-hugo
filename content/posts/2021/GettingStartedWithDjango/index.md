@@ -1,6 +1,7 @@
 ---
 title: Getting started Django
 date: '2021-04-10'
+url: '/2021/GettingStartedWithDjango'
 tags: ["python"]
 ---
 

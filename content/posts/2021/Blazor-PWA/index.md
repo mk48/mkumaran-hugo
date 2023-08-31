@@ -1,6 +1,7 @@
 ---
 title: PWA application using Blazor
 date: '2021-12-25'
+url: '/2021/Blazor-PWA'
 tags: ["C sharp"]
 ---
 

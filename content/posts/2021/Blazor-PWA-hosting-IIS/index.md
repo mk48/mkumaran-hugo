@@ -1,6 +1,7 @@
 ---
 title: Hosting Blazor PWA application on IIS
 date: '2021-12-30'
+url: '/2021/Blazor-PWA-hosting-IIS'
 tags: ["C sharp"]
 ---
 

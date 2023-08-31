@@ -1,6 +1,7 @@
 ---
 title: How to use PostgreSQL wildcards practically
 date: '2021-01-24'
+url: '/2021/postgresql-wildcard'
 tags: ["PostgreSQL"]
 ---
 

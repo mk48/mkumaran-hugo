@@ -1,6 +1,7 @@
 ---
 title: Converting my blog to Gatsby
 date: "2019-01-18"
+url: '/2019/convertingblogtogatsby'
 tags: ["Mine"]
 ---
 

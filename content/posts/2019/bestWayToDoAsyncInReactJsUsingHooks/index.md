@@ -1,6 +1,7 @@
 ---
 title: Best way to do async request (ajax and side effects) in ReactJs using hooks, Redux style - useReducer()
 date: "2019-05-26"
+url: '/2019/bestWayToDoAsyncInReactJsUsingHooks'
 tags: ["ReactJs", "Web"]
 ---
 

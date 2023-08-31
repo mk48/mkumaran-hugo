@@ -1,6 +1,7 @@
 ---
 title: Getting started with Flutter - Installation
 date: '2022-04-03'
+url: '/2022/gettingstartedFlutter'
 tags: ["Flutter"]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Web push notifications
 date: '2021-12-24'
+url: '/2021/Web-Push-Notifications'
 tags: ["Web"]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: How to use ActiveMQ in C#
 date: '2021-01-23'
+url: '/2021/ActiveMQCsharp'
 tags: ["C sharp", "ActiveMQ"]
 ---
 

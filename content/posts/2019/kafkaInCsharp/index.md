@@ -1,6 +1,7 @@
 ---
 title: How to use Apache kafka in C#
 date: "2019-12-22"
+url: '/2019/kafkaInCsharp'
 tags: ["Kafka", "C sharp"]
 ---
 

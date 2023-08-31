@@ -1,6 +1,7 @@
 ﻿---
 title: I created a mobile app to copy text from system/browser to mobile
 date: '2019-05-12'
+url: '/2019/copyTextFromBrowserToMobile'
 tags: ["Mobile", "App", "React Native", "My Project"]
 ---
 

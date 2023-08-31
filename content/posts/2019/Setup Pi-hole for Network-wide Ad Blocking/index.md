@@ -1,6 +1,7 @@
 ---
 title: How I avoided Ads in Network-wide using Pi-hole and a Raspberry Pi
 date: "2019-06-16"
+url: '/2019/Setup%20Pi-hole%20for%20Network-wide%20Ad%20Blocking'
 tags: ["Mine", "Fun Project", "Raspberry Pi"]
 ---
 

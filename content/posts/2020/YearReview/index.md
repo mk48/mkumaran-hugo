@@ -1,6 +1,7 @@
 ---
 title: My 2020 year in review
 date: '2021-01-05'
+url: '/2020/YearReview'
 tags: ["Mine"]
 ---
 
