@@ -1,6 +1,7 @@
 ---
 title: Getting started Go lang in windows
 date: '2021-03-27'
+tags: ["Go"]
 ---
 
 ## Installation

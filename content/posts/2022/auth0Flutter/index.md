@@ -1,6 +1,7 @@
 ---
 title: Auth0 with Flutter
 date: "2022-05-29"
+tags: ["Flutter", "Mobile"]
 ---
 
 ## Setup auth0

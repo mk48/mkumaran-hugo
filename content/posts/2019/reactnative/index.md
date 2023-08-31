@@ -1,6 +1,7 @@
 ---
 title: ReactNative getting started
 date: "2019-12-23"
+tags: ["React Native"]
 ---
 
 ## Install Andriod studio

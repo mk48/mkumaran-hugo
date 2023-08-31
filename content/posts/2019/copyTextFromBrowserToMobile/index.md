@@ -1,6 +1,7 @@
 ﻿---
 title: I created a mobile app to copy text from system/browser to mobile
 date: '2019-05-12'
+tags: ["Mobile", "App", "React Native", "My Project"]
 ---
 
 most of the time I need to share something in mobile messenger which is available in system or browser. I can use web version of the messenger, but some of them don't have a web version.

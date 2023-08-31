@@ -1,6 +1,7 @@
 ---
 title: How to use PostgreSQL wildcards practically
 date: '2021-01-24'
+tags: ["PostgreSQL"]
 ---
 
 This is article is not about how to use wildcards in PostgreSql, instead of how to use wildcard usefully!

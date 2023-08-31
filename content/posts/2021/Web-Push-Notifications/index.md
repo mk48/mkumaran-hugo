@@ -1,6 +1,7 @@
 ---
 title: Web push notifications
 date: '2021-12-24'
+tags: ["Web"]
 ---
 
 This tutorial is based on a youtube video [Web Push Notifications - End to End implementation](https://www.youtube.com/watch?v=2zHqTjyfIY8)

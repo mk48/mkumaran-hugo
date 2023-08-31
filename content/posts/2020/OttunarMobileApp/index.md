@@ -1,6 +1,7 @@
 ---
 title: Ottunar - A mobile app to record expenses/income for truck drivers
 date: '2020-08-11'
+tags: ["My Project", "App", "Mobile", "Flutter"]
 ---
 
 I created a mobile app for truck drivers to manage their expenses. It is a simple and light weight.

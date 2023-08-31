@@ -1,6 +1,7 @@
 ---
 title: PWA application using Blazor
 date: '2021-12-25'
+tags: ["C sharp"]
 ---
 
 ## Create a new Blazor PWA application

@@ -1,6 +1,7 @@
 ---
 title: Getting started with Flutter - Installation
 date: '2022-04-03'
+tags: ["Flutter"]
 ---
 
 ## 1. Install Flutter

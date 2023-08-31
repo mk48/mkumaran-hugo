@@ -1,6 +1,7 @@
 ---
 title: Converting my blog to Gatsby
 date: "2019-01-18"
+tags: ["Mine"]
 ---
 
 ### I had my blog on wordpress.

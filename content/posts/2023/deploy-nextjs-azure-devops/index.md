@@ -1,70 +1,79 @@
 ---
 title: Deploye nextjs app in Azure devops
 date: '2023-05-09'
-draft: true
+tags: ["NextJs", "Devops"]
+draft: false
 ---
 
-## Config the NextJs project
+## Introduction
 
-add `output` config as `standalone` in the `next.config.js`
+Deploying a Next.js application to production requires a streamlined process that ensures the application is built correctly and deployed to a reliable hosting environment. Azure DevOps provides a powerful set of tools to automate these processes, ensuring efficient deployment of your Next.js app. This guide walks you through the steps to deploy your Next.js app using Azure DevOps.
+
+## Configuring the Next.js Project
+
+To prepare your Next.js app for deployment, follow these steps:
+
+### 1. Update next.config.js
+
+In your `next.config.js`, include the `output` configuration as `standalone` to ensure your app is built as a standalone bundle:
 
 ```js
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'standalone',
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/i,
-      issuer: /\.[jt]sx?$/,
-      use: ['@svgr/webpack'],
-    })
+  output: 'standalone', // Add this line
+  // ... other configurations
+};
 
-    return config
-  },
-}
-
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: false,
-})
-module.exports = withBundleAnalyzer(nextConfig)
+module.exports = nextConfig;
 ```
-
-Build nextJs using `npm run build`
-After build, we can see a new folder `standalone` in the `.next` folder.
+### 1. Build the Next.js App
+Run the command `npm run build` to build your Next.js app. After the build, you'll find a new folder named `standalone` within the `.next` directory.
 ![Standalone folder](standalone-folder.png)
 
-### Copy below folders into standalone folder
 
-1. Copy public folder into ./next/standalone
-2. Copy .next/static into ./next/standalone/static
+### 3. Copy Required Folders
+
+Copy the following folders into the `standalone` folder:
+
+1. Copy the `public` folder into `./next/standalone`.
+2. Copy the `.next/static` folder into `./next/standalone/static`.
 
 ![Copy folders into standalone](copy-folders-into-standalone.png)
+This step ensures that all the necessary assets are correctly placed for deployment.
 
-### Run the standalone folder
+## Running the Standalone Build
 
-open the standalone folder in a command prompt and run `node server.js` which will start the server.
-Now, open the browser and go to localhost:3000 and ensure that the website is working fully.
-We are going to deploy only the standalone folder.
+To confirm that your standalone build works as expected, follow these steps:
 
-## Create new pipeline
+1. Open a command prompt within the `standalone` folder.
+2. Run the command `node server.js` to start the server.
+3. Open a web browser and navigate to `localhost:3000` to ensure that the website functions properly.
 
-go to azure devops and pipelines then click "new pipeline"
+Remember that only the content of the `standalone` folder will be deployed.
+
+## Setting up the Azure DevOps Pipeline
+Follow these steps to create a deployment pipeline in Azure DevOps:
+
+### 1. Create a New Pipeline
+
+
+1. Go to Azure DevOps and navigate to Pipelines, then click on "New Pipeline".
 ![New pipe line](new-pipe-line-button.png)
 
-select 'Azure repos git'
+2. Select "Azure Repos Git" as the source.
 ![Select Azure repos git](select-azure-repos-git.png)
 
-then select your repository.
+3. Choose your repository.
 
-Select Node.js from configure section.
+### 2. Select Node.js and Configure
+In the configuration section, select "Node.js" as the template.
 ![Select nodejs pipe line](select-nodejs-pipeline.png)
 
-we will get generated yaml code, just click 'Save and run'
+ Review the generated YAML code and click "Save and run". You can edit the configuration later if needed.
 ![Review yaml pipe line code](review-yaml-pipeline-code.png)
 You can edit the config file now or later. If you do later then you have to check-in the changes.
 
-Below is my final yml.
+Here's an example YAML configuration:
 
 ```yml
 trigger:
@@ -133,10 +142,10 @@ steps:
 give a commit message and click 'save and run'
 ![Give a commit message](Give-commit-message.png)
 
-it's running, once done you can see success tick and published artifcate.
+it's running, once done you can see success tick and published artifact.
 ![Pipeline running completed](pipeline-completed.png)
 
-## Create app service
+### 3. Create the Azure App Service
 
 In azure, we have to create a new `App service`
 ![Create new app service basic tab](new-app-service-starting-config.png)
@@ -157,18 +166,18 @@ I already created app service with free plan which doesn't support slots, so I c
 Open the created app service, go to deployment slots section, add slot.
 ![Create slots for staging](slots-for-staging.png)
 
-give a name for the slot.
-Select the main app service in the clone settings dropdown.
-Click add.
+1. Give a name for the slot.
+2. Select the main app service in the clone settings dropdown.
+3. Click add.
 ![Name for slot](name-for-slot.png)
 
 Once that's done, we can see one more app service with `slot`
 ![Deployment slots](deployment-slots.png)
 
-give startup command in both stagin and production slots.
+Give startup command in both stagin and production slots.
 ![Startup command](startup-command.png)
 
-below settings to view the container logs
+Below settings to view the container logs
 ![Settings to view container logs](settings-to-view-container-log.png)
 
 ## Create new Release
@@ -188,8 +197,8 @@ Name for the release pipeline
 ![Name for the release pipe line](name-for-the-release-pipeline.png)
 
 1. Select Artifact
-2. select build pipeline
-3. give a source alias
+2. Select build pipeline
+3. Give a source alias
 
 ![Select artifact](select-artifacts.png)
 
@@ -202,9 +211,9 @@ In parameter section click `unlink all`. I don't have that in the below screen.
 ![Unlink parameter](unline-in-parameter.png)
 
 1. Select run on agent
-2. give a name for display
-3. select azure pipelines
-4. select `ubuntu latest`
+2. Give a name for display
+3. Select azure pipelines
+4. Select `ubuntu latest`
 5. Ensure your artifact selected
 
 ![Staging release settings](staging-release-settings.png)
@@ -214,7 +223,7 @@ Make changes in the `Deploy azure app service` like below image
 
 ### Create production release pipeline
 
-clone staging to create production release
+Clone staging to create production release
 ![Clone staging pipeline](clone-staging-for-production.png)
 
 Change the stage name as production
@@ -229,7 +238,7 @@ Create relase
 Select all, we will do manual trigger.
 ![Manual trigger](manual-trigger.png)
 
-Once created teh relase, click on name to open
+Once created the release, click on name to open
 ![Release created](release-created.png)
 
 I have already deployed, so it is showing as redeploy, but first it should be `deploy` just click to deploy.
@@ -237,3 +246,8 @@ I have already deployed, so it is showing as redeploy, but first it should be `d
 
 Once deployment done, we can see the log in `Log stream`
 ![Listening on port 8080](listening-port-8080.png)
+
+
+## Conclusion
+
+By following these steps, you can successfully deploy your Next.js app using Azure DevOps. This automated deployment process ensures consistency and reliability in your deployments, allowing you to focus on building and improving your application.

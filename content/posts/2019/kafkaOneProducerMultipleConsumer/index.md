@@ -1,6 +1,7 @@
 ---
 title: How to use Kafka as a load balancer for a topic
 date: '2019-12-23'
+tags: ["Kafka", "C sharp"]
 ---
 
 This is continuation of my Kafka series. Please read my previous article.

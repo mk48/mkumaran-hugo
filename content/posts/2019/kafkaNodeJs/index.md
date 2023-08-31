@@ -1,6 +1,7 @@
 ---
 title: How to use Kafka in NodeJs
 date: '2019-12-24'
+tags: ["Kafka", "NodeJs"]
 ---
 
 1. Create a folder `KafkaNodeJs`

@@ -1,6 +1,7 @@
 ---
 title: I stopped using WhatsApp and Why I told my friends to stop using WhatsApp and Telegram
 date: "2019-01-28"
+tags: ["Mine"]
 ---
 
 **This is fully copied from around the net and summerized.**

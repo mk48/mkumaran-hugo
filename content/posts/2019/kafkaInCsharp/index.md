@@ -1,6 +1,7 @@
 ---
 title: How to use Apache kafka in C#
 date: "2019-12-22"
+tags: ["Kafka", "C sharp"]
 ---
 
 In this article I will explain how to use kafka in C#. Ensure that you already installed kafka for windows else check my previous article [Install Apache Kafka in Windows 10](http://mkumaran.net/2019/kafka)

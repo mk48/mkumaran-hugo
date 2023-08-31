@@ -1,6 +1,7 @@
 ---
 title: Solve Algebra Linear Equations using Backtracking
 date: '2020-04-05'
+tags: ["Backtracking", "fun program"]
 ---
 
 I received a picture puzzle in WhatsApp. I will explain here how I solved that using programming. I used [Backtracking](http://www.thegeekstuff.com/2014/12/backtracking-example/) concept.

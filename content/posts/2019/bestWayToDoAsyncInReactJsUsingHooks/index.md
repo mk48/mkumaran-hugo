@@ -1,6 +1,7 @@
 ---
 title: Best way to do async request (ajax and side effects) in ReactJs using hooks, Redux style - useReducer()
 date: "2019-05-26"
+tags: ["ReactJs", "Web"]
 ---
 
 ## How to fetch data with React Hooks?
