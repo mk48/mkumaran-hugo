@@ -1,6 +1,7 @@
 ---
 title: Install packages from myget.org in Visual Studio 2015
 date: "2019-01-06"
+url: '/first/06-mygetorg'
 tags: ["C sharp", "Visual Studio"]
 ---
 

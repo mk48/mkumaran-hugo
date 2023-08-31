@@ -1,6 +1,7 @@
 ---
 title: Create 3D model in React Native using WebGL and Three.js
 date: "2019-01-07"
+url: '/first/07-3dmodel-reactnative-threejs'
 tags: ["Mobile", "React Native", "Three.js"]
 ---
 

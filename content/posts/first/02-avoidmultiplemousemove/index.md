@@ -1,6 +1,7 @@
 ---
 title: Avoid multiple mouse move events in C#
 date: "2019-01-02"
+url: '/first/02-avoidmultiplemousemove'
 tags: ["C sharp", "WPF"]
 ---
 

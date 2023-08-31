@@ -51,4 +51,4 @@ Migrating my software programming blog from Gatsby to Hugo was a decision I have
 
 This is also one of the reason why I am slowly moving to Go :)
 
-This is not the end, if I get any other good alternatives in future then I will learn and move again, it won't stop :)
+This is not the end, if I get any other good alternatives in future then I will learn and move again, I won't stop :)

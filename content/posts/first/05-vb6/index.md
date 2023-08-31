@@ -1,6 +1,7 @@
 ---
 title: Creating a simple Telephone directory using VB6.0
 date: "2019-01-05"
+url: '/first/05-vb6'
 tags: ["VB6"]
 ---
 

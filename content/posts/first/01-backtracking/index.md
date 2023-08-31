@@ -1,6 +1,7 @@
 ---
 title: Backtracking – 1000 locks and 1000 students problem
 date: '2019-01-01'
+url: '/first/01-backtracking'
 tags: ["C", "Backtracking", "fun program"]
 ---
 

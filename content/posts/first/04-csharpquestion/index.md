@@ -1,6 +1,7 @@
 ---
 title: int x=5; x += x++ + ++x; (C#)
 date: "2019-01-04"
+url: '/first/04-csharpquestion'
 tags: ["C sharp", "fun program"]
 ---
 
