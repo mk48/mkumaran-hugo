@@ -2,6 +2,11 @@
 hugo server
 http://localhost:1313
 
+## publish
+hugo
+cd public
+aws s3 sync . s3://bucketname
+
 ## Old URLs
 
 http://mkumaran.net/2022/gettingstartedFlutter/
