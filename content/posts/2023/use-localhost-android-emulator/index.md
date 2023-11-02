@@ -3,11 +3,11 @@ title: Accessing computer's localhost from Android emulator
 date: "2023-09-16"
 tags: ["Mobile", "Android", "Web"]
 ---
-# Two ways to access your local computer's localhost
+## Two ways to access your local computer's localhost
 1. Using IP 10.0.2.2 in emulator
 2. Using localhost text in the emulator
 
-## Using IP 10.0.2.2
+### Using IP 10.0.2.2
 This is straight forward, open browser in the andriod emulator and go to http://10.0.2.2 it will point to your computer's localhost.
 
 To access your computer's localhost from an Android emulator using "localhost," you can use the special IP address `10.0.2.2`, which is an alias to your host machine's loopback interface (localhost). Here's how to do it:
@@ -25,7 +25,7 @@ To access your computer's localhost from an Android emulator using "localhost," 
 
 Using `10.0.2.2` is a convenient way to access the localhost of your host machine from the Android emulator without needing to know the actual local IP address of your computer.
 
-## Using localhost from emulator
+### Using localhost from emulator
 Sometimes, accessing a computer's localhost is essential, but it becomes even more critical when we require access using the localhost text. This situation often arises when integrating services like Auth0 or other authentication providers. To facilitate the integration, you typically need to specify a URL in the redirect section of the authentication application.
 
 Many authentication providers do not accept an IP address for the redirect URL, and some even demand an HTTPS connection. However, there's an elegant solution—using 'localhost.' This allows us to access our local server solely through the 'localhost' text, without the need for an IP address. This capability ensures a smoother integration process when working with authentication services that have such specific requirements.
