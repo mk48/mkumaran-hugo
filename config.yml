@@ -36,7 +36,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "M.Kumaran's personal blog and website \U0001F44B"
-    Content: Passionate in programming        
+    Content: Dive into the world of a passionate full-stack developer through my code-centric blog. Explore the art of programming with minimal text and maximum hands-on experience.        
   
   socialIcons:
     - name: twitter

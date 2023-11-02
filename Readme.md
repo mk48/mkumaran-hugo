@@ -1,3 +1,7 @@
+## Run
+hugo server
+http://localhost:1313
+
 ## Old URLs
 
 http://mkumaran.net/2022/gettingstartedFlutter/
